@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
-import HeroForm from '@/components/Heroform'
 import Aboutdoctor from '@/components/Aboutdoctor'
 import HowRegenexxWorks from '@/components/HowRegenexxWorks'
 import Testimonials from '@/components/Testimonials'
@@ -15,7 +14,27 @@ export default function Home() {
     return (
         <>
             <Navbar />
-            <HeroForm bgImage="/fullshot2.png" />
+            
+            {/* Hero Section */}
+            <section className="relative h-screen w-full">
+                <Image
+                    src="/fullshot2.png"
+                    alt="Fitness motivation"
+                    fill
+                    className="object-cover brightness-50"
+                    priority
+                />
+                <div className="absolute inset-0 flex items-center justify-center px-6">
+                    <div className="text-center">
+                        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
+                            The pain you feel today
+                        </h1>
+                        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mt-4">
+                            is the strength you feel tomorrow
+                        </h2>
+                    </div>
+                </div>
+            </section>
             
             {/* Welcome Section */}
             <section className="bg-[#29313A] py-16 px-6">
