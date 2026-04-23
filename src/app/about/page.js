@@ -10,7 +10,7 @@ const AboutPage = () => {
     return (
         <>
             <Navbar />
-            
+
             {/* Hero Section */}
             <section className="bg-[#1D242C] py-20 px-6">
                 <div className="max-w-7xl mx-auto text-center">
@@ -80,7 +80,7 @@ const AboutPage = () => {
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-12">
                         Why Choose Our Practice
                     </h2>
-                    
+
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {/* Card 1 */}
                         <div className="bg-[#1D242C] p-8 rounded-lg shadow-lg">
@@ -157,7 +157,7 @@ const AboutPage = () => {
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-12">
                         Our Approach to Care
                     </h2>
-                    
+
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
                             <p>
@@ -193,7 +193,7 @@ const AboutPage = () => {
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-12">
                         Conditions We Treat
                     </h2>
-                    
+
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
                         {[
                             "Knee Arthritis",

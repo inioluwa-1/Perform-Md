@@ -83,7 +83,7 @@ const page = () => {
             className="cursor-pointer w-full relative border-[#fff] border-2 mt-8 px-6 py-6 bg-[#1E242B] text-[#76C0D8] font-bold text-2xl rounded hover:bg-[#323d4a] transition"
           >
             Schedule Now
-            <ArrowUpRight className="absolute right-8 bottom-6.5 text-[#fff]"/>
+            <ArrowUpRight className="absolute right-8 bottom-6.5 text-[#fff]" />
           </button>
         </form>
       </div>

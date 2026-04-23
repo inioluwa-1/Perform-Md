@@ -3,8 +3,8 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 export default function RegenexxForm() {
-    return (
-        <>
+  return (
+    <>
       <Navbar />
       <div className="min-h-screen bg-[#1e242a] text-white">
         <div className="container mx-auto px-6 py-8">
@@ -13,7 +13,7 @@ export default function RegenexxForm() {
             <div className="space-y-6 md:ml-12 lg:order-2">
               <div>
                 <h1 className="text-4xl lg:text-5xl font-bold mb-8 leading-tight">Regenexx Procedure Candidate Form</h1>
-  
+
                 <div className="space-y-6 text-gray-300 leading-relaxed">
                   <p className="text-lg">
                     If you are suffering from arthritis, joint or muscle injury, spine pain, a sports-related injury, or
@@ -21,7 +21,7 @@ export default function RegenexxForm() {
                     treatment. Please complete the Procedure Candidate Form below and we will get back to you with more
                     information after your form is received.
                   </p>
-  
+
                   <div >
                     <p className="text-white">
                       <span className="font-semibold text-xl">Please note:</span> Regenexx Procedures are not reimbursable by
@@ -31,7 +31,7 @@ export default function RegenexxForm() {
                 </div>
               </div>
             </div>
-  
+
             {/* Form Section - Shows second on mobile */}
             <div className="space-y-6 md:mr-12 lg:order-1">
               <form className="space-y-6">
@@ -58,7 +58,7 @@ export default function RegenexxForm() {
                     />
                   </div>
                 </div>
-  
+
                 {/* Zip Code */}
                 <div className="space-y-2">
                   <label htmlFor="zipCode" className="block text-sm text-gray-300">
@@ -70,7 +70,7 @@ export default function RegenexxForm() {
                     className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-md text-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
                   />
                 </div>
-  
+
                 {/* Phone */}
                 <div className="space-y-2">
                   <label htmlFor="phone" className="block text-sm text-gray-300">
@@ -82,7 +82,7 @@ export default function RegenexxForm() {
                     className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-md text-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
                   />
                 </div>
-  
+
                 {/* Text Consent */}
                 <div className="space-y-2">
                   <label htmlFor="textConsent" className="block text-sm text-gray-300">
@@ -99,7 +99,7 @@ export default function RegenexxForm() {
                     <option value="no">No</option>
                   </select>
                 </div>
-  
+
                 {/* Email */}
                 <div className="space-y-2">
                   <label htmlFor="email" className="block text-sm text-gray-300">
@@ -111,7 +111,7 @@ export default function RegenexxForm() {
                     className="w-full px-3 py-2 bg-slate-700 border border-slate-600 rounded-md text-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
                   />
                 </div>
-  
+
                 {/* Interest Selection */}
                 <div className="space-y-2">
                   <label htmlFor="interestedIn" className="block text-sm text-gray-300">
@@ -131,7 +131,7 @@ export default function RegenexxForm() {
                     <option value="orthopedic">Other Orthopedic Condition</option>
                   </select>
                 </div>
-  
+
                 {/* Additional Information */}
                 <div className="space-y-2">
                   <label htmlFor="additionalInfo" className="block text-sm text-gray-300">
@@ -144,7 +144,7 @@ export default function RegenexxForm() {
 
                   />
                 </div>
-  
+
                 {/* Submit Button */}
                 <button
                   type="submit"
@@ -158,6 +158,6 @@ export default function RegenexxForm() {
         </div>
       </div>
       <Footer />
-      </>
-    )
-  }
+    </>
+  )
+}

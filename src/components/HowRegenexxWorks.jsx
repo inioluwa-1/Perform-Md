@@ -27,7 +27,7 @@ export default function HowRegenexxWorks() {
 
                             <p>
                                 <span className="text-[#50C3E9] font-semibold">
-                                The Regenexx-SD</span> Procedure helps overcome this problem by harvesting Bone Marrow from an area of the back of the hip that contains a dense population of these important cells and then concentrating those cells before precisely injecting them into the injured area using advanced imaging guidance.
+                                    The Regenexx-SD</span> Procedure helps overcome this problem by harvesting Bone Marrow from an area of the back of the hip that contains a dense population of these important cells and then concentrating those cells before precisely injecting them into the injured area using advanced imaging guidance.
                             </p>
 
                             <p>
@@ -39,7 +39,7 @@ export default function HowRegenexxWorks() {
                     {/* Scp - Super Concentrated Platelets */}
                     <div className="space-y-6">
                         {/* Scp Box */}
-                          <div className='flex justify-center content-center mx-auto lg:block'>
+                        <div className='flex justify-center content-center mx-auto lg:block'>
                             <img src="/imageSCP.png" alt="" />
                         </div>
 

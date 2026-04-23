@@ -25,7 +25,7 @@ export default function Home() {
                     priority
                 />
                 <div className="absolute inset-0 flex items-center justify-center px-6">
-                    <div className="text-center">
+                    <div className="text-center" data-aos="fade-up" data-aos-duration="1000">
                         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
                             The pain you feel today
                         </h1>
@@ -39,7 +39,7 @@ export default function Home() {
             {/* Welcome Section */}
             <section className="bg-[#29313A] py-16 px-6">
                 <div className="max-w-7xl mx-auto">
-                    <div className="text-center mb-12">
+                    <div className="text-center mb-12" data-aos="fade-up">
                         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
                             Welcome to Regenexx® Regenerative Medicine
                         </h1>
@@ -53,13 +53,13 @@ export default function Home() {
             {/* Featured Services */}
             <section className="bg-[#1D242C] py-16 px-6">
                 <div className="max-w-7xl mx-auto">
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-12">
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-12" data-aos="fade-down">
                         Our Specialized Services
                     </h2>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {/* Knee */}
-                        <Link href="/knee" className="group">
+                        <Link href="/knee" className="group" data-aos="fade-up" data-aos-delay="100">
                             <div className="bg-[#29313A] rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
                                 <div className="relative h-48">
                                     <Image
@@ -85,7 +85,7 @@ export default function Home() {
                         </Link>
 
                         {/* Shoulder */}
-                        <Link href="/shoulder" className="group">
+                        <Link href="/shoulder" className="group" data-aos="fade-up" data-aos-delay="200">
                             <div className="bg-[#29313A] rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
                                 <div className="relative h-48">
                                     <Image
@@ -111,7 +111,7 @@ export default function Home() {
                         </Link>
 
                         {/* Hip */}
-                        <Link href="/hip" className="group">
+                        <Link href="/hip" className="group" data-aos="fade-up" data-aos-delay="300">
                             <div className="bg-[#29313A] rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
                                 <div className="relative h-48">
                                     <Image
@@ -137,7 +137,7 @@ export default function Home() {
                         </Link>
 
                         {/* Spine */}
-                        <Link href="/spine" className="group">
+                        <Link href="/spine" className="group" data-aos="fade-up" data-aos-delay="400">
                             <div className="bg-[#29313A] rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
                                 <div className="relative h-48">
                                     <Image
@@ -163,7 +163,7 @@ export default function Home() {
                         </Link>
 
                         {/* Ankle */}
-                        <Link href="/ankle" className="group">
+                        <Link href="/ankle" className="group" data-aos="fade-up" data-aos-delay="500">
                             <div className="bg-[#29313A] rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
                                 <div className="relative h-48">
                                     <Image
@@ -189,7 +189,7 @@ export default function Home() {
                         </Link>
 
                         {/* Elbow */}
-                        <Link href="/elbow" className="group">
+                        <Link href="/elbow" className="group" data-aos="fade-up" data-aos-delay="600">
                             <div className="bg-[#29313A] rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
                                 <div className="relative h-48">
                                     <Image
@@ -224,7 +224,7 @@ export default function Home() {
 
             {/* Final CTA */}
             <section className="bg-[#29313A] py-16 px-6">
-                <div className="max-w-4xl mx-auto text-center">
+                <div className="max-w-4xl mx-auto text-center" data-aos="zoom-in">
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                         Take the First Step Toward Recovery
                     </h2>
